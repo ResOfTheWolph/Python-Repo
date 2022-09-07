@@ -1,8 +1,8 @@
-# Python-Folder
+# Password Generators
 <br>
 
 **-   👤 ABOUT   -**<br>
-_**Python-Folder**_ is a storage folder to all my scripts and projects written in Python Language.<br>
+_**Password Generators**_ is a storage folder to all my scripts and projects that concerns to creation of passwords.<br>
 
 **-   ⚠️ DISCLAIMER   -**<br>
 This is a public folder that contains code. The purpose of this folder is to bring knowledge and preparation to its users and viewers, but it is necessary to be aware that is forbidden use my code to your own bennefit. By this I mean that this content should not be published or shared as it from no one but me or without my name attached and referenced in the code. All other actions than that is punished by law under protection of the owner content law.<br>
