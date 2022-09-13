@@ -4,32 +4,19 @@
 #   |_|_\ \___/  |_|    \_/\_/     |   https://github.com/ResOfTheWolph/
 #                                  |
 
-import time
-from plyer import notification
-
-if __name__ == "__main__":
-    while True:
-        notification.notify(
-            title = "ALERT!!!",
-            message = "Take a break! It has been an hour!",
-            timeout = 10
-        )
-        time.sleep(3600)
-
-
 import pygame
 import tkinter as tkr
 from tkinter.filedialog import askdirectory
 import os
 
 music_player = tkr.Tk()
-music_player.title("My Music Player")
-music_player.geometry("450x350")
+music_player.title("ROTW Music Player")
+music_player.geometry("500x400")
 directory = askdirectory()
 os.chdir(directory)
 song_list = os.listdir()
 
-play_list = tkr.Listbox(music_player, font="Helvetica 12 bold", bg='yellow', selectmode=tkr.SINGLE)
+play_list = tkr.Listbox(music_player, font="Helvetica 10 bold", bg='white', fg="black", selectmode=tkr.SINGLE)
 for item in song_list:
     pos = 0
     play_list.insert(pos, item)
@@ -40,25 +27,26 @@ pygame.mixer.init()
 def play():
     pygame.mixer.music.load(play_list.get(tkr.ACTIVE))
     var.set(play_list.get(tkr.ACTIVE))
-    pygame.mixer.music.play()
+    pygame.mixer.music.play(loops = -1)
 def stop():
     pygame.mixer.music.stop()
 def pause():
     pygame.mixer.music.pause()
 def unpause():
     pygame.mixer.music.unpause()
-Button1 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="PLAY", command=play, bg="blue", fg="white")
-Button2 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="STOP", command=stop, bg="red", fg="white")
-Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="PAUSE", command=pause, bg="purple", fg="white")
-Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
 
-var = tkr.StringVar() 
-song_title = tkr.Label(music_player, font="Helvetica 12 bold", textvariable=var)
+Button1 = tkr.Button(music_player, width=5, height=3, font="Helvetica 11 bold", text="-   Tocar Música   -", command=play, bg="#e1d7bf", fg="#3776ab")
+Button2 = tkr.Button(music_player, width=5, height=3, font="Helvetica 11 bold", text="-   Parar Música   -", command=stop, bg="#e1d7bf", fg="#ba3230")
+Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 11 bold", text="-   Pausar Música   -", command=pause, bg="#e1d7bf", fg="#2F5E55")
+Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 11 bold", text="-   Retirar Pausa   -", command=unpause, bg="#e1d7bf", fg="#2F5E55")
 
-song_title.pack()
+var = tkr.StringVar()
+song_title = tkr.Label(music_player, font="Helvetica 10 bold", bg='white', fg="black", textvariable=var)
+
+song_title.pack(fill="x", expand="yes")
 Button1.pack(fill="x")
 Button2.pack(fill="x")
 Button3.pack(fill="x")
 Button4.pack(fill="x")
-play_list.pack(fill="both", expand="yes")
+play_list.pack(fill="x", expand="yes")
 music_player.mainloop()
