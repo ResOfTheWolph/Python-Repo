@@ -1,6 +1,6 @@
 #    ___   ___  _____ __      __   |
 #   | _ \ / _ \|_   _|\ \    / /   |   Rúben Cavaco
-#   |   /| (_) | | |   \ \/\/ /    |   rcavaco@protonmail.ch
+#   |   /| (_) | | |   \ \/\/ /    |   GitHub: ResOfTheWolph
 #   |_|_\ \___/  |_|    \_/\_/     |   https://github.com/ResOfTheWolph/
 #                                  |
 

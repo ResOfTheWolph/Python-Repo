@@ -1,13 +1,69 @@
-# Python Repo
-<br>
+# Python-Repo
 
-**-   👤 ABOUT   -**<br>
-_**Python Repo**_ is a storage folder to all my scripts and projects written in Python Language.<br>
+`Python-Repo` é um repositório técnico pessoal de Rúben Cavaco, criado como registo da fase inicial de aprendizagem e criação de projetos em Python.
 
-**-   ⚠️ DISCLAIMER   -**<br>
-This is a public folder that contains code. The purpose of this folder is to bring knowledge and preparation to its users and viewers, but it is necessary to be aware that is forbidden use my code to your own bennefit. By this I mean that this content should not be published or shared as it from no one but me or without my name attached and referenced in the code. All other actions than that is punished by law under protection of the owner content law.<br>
+Este repositório pertence ao percurso técnico pessoal de Rúben Cavaco e é anterior à estruturação da Portus Digital. Não é um projeto originalmente criado pela Portus Digital, não representa um entregável dessa entidade e não deve conter dados laborais, operacionais, financeiros, credenciais ou dados pessoais reais desnecessários.
 
-**-   🎯 INFORMATION   -**<br>
-You can _**download**_ and use my code _**as reference**_ to help you evolve your code and knowledge, but don't forget the requirements to must have in mind when use my code. If you need help or information _**feel free to contact me**_. You have also one _**Chat Room**_ where you can dicuss and chat about Python and about my projects and scrips in the folder.<br>
+## Classificação
 
-<br>
+- Tipo: portefólio técnico pessoal.
+- Autor e proprietário: Rúben Cavaco.
+- Período: anterior à estruturação da Portus Digital.
+- Estado: histórico, educativo e demonstrativo.
+- Linguagem principal: Python.
+- Licença: GNU General Public License v3.0, conforme o ficheiro `LICENSE`.
+
+## Relação Cronológica
+
+O portefólio pré-Portus Digital está organizado em fases distintas:
+
+1. `Python-Repo` — aprendizagem inicial e projetos em Python.
+2. `IA-Transition` — transição posterior para inteligência artificial.
+3. Portus Digital — aplicação profissional e empresarial posterior.
+
+O `Python-Repo` e o `IA-Transition` devem permanecer separados para preservar os respetivos históricos, contextos de aprendizagem e evolução técnica.
+
+## Projetos Incluídos
+
+- `Password Generators/gerador_de_password.py`: gerador simples de password demonstrativo em consola.
+- `Password Generators/password_generator.py`: gerador de password com interface Tkinter e cópia para clipboard.
+- `Music-Players/ROTW_Music_Player.py`: leitor de música experimental com Tkinter e Pygame.
+
+O inventário factual dos projetos está em `PROJECT_INDEX.md`.
+
+## Execução
+
+Os scripts foram preservados como exemplos históricos de aprendizagem. Antes de executar qualquer script, deve ser revisto o respetivo código e confirmadas as dependências.
+
+Dependências observadas:
+
+- biblioteca padrão Python: `random`, `os`, `tkinter`;
+- dependências externas: `pyperclip`, `pygame`.
+
+Não existe, nesta fase, ficheiro formal de dependências como `requirements.txt` ou `pyproject.toml`.
+
+## Segurança e Privacidade
+
+Este repositório não deve conter:
+
+- credenciais, tokens, chaves privadas ou ficheiros `.env`;
+- emails pessoais privados;
+- moradas, telefones ou identificadores pessoais não necessários;
+- dados pessoais de terceiros;
+- identificadores laborais;
+- dados laborais, financeiros ou operacionais reais;
+- caminhos locais absolutos;
+- informação interna de entidades, clientes, equipas ou processos.
+
+São permitidos, quando necessários ao contexto histórico e à autoria:
+
+- nome público do autor;
+- identificação pública do proprietário;
+- perfil público GitHub;
+- referências históricas autorizadas necessárias à autoria e ao enquadramento do portefólio.
+
+As regras completas estão descritas em `SECURITY.md`.
+
+## Manutenção
+
+O repositório deve ser preservado como artefacto histórico do percurso técnico inicial. Alterações futuras devem privilegiar documentação, segurança, privacidade, correções conservadoras e clarificação do contexto, sem reescrever o histórico e sem misturar esta fase com o `IA-Transition`.
