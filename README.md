@@ -2,7 +2,7 @@
 
 `Python-Repo` é um repositório técnico pessoal de Rúben Cavaco, criado como registo da fase inicial de aprendizagem e criação de projetos em Python.
 
-Este repositório pertence ao percurso técnico pessoal de Rúben Cavaco e é anterior à estruturação da Portus Digital. Não é um projeto originalmente criado pela Portus Digital, não representa um entregável dessa entidade e não deve conter dados laborais, operacionais, financeiros, credenciais ou dados pessoais reais.
+Este repositório pertence ao percurso técnico pessoal de Rúben Cavaco e é anterior à estruturação da Portus Digital. Não é um projeto originalmente criado pela Portus Digital, não representa um entregável dessa entidade e não deve conter dados laborais, operacionais, financeiros, credenciais ou dados pessoais reais desnecessários.
 
 ## Classificação
 
@@ -48,10 +48,19 @@ Este repositório não deve conter:
 
 - credenciais, tokens, chaves privadas ou ficheiros `.env`;
 - emails pessoais privados;
-- dados pessoais reais;
+- moradas, telefones ou identificadores pessoais não necessários;
+- dados pessoais de terceiros;
+- identificadores laborais;
 - dados laborais, financeiros ou operacionais reais;
 - caminhos locais absolutos;
 - informação interna de entidades, clientes, equipas ou processos.
+
+São permitidos, quando necessários ao contexto histórico e à autoria:
+
+- nome público do autor;
+- identificação pública do proprietário;
+- perfil público GitHub;
+- referências históricas autorizadas necessárias à autoria e ao enquadramento do portefólio.
 
 As regras completas estão descritas em `SECURITY.md`.
 

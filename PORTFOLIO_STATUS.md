@@ -29,9 +29,10 @@ O conteúdo deve ser interpretado como material educativo e demonstrativo. Os sc
 ## Política de Preservação
 
 - Preservar a autoria de Rúben Cavaco.
+- Permitir o nome público do autor, a identificação pública do proprietário, o perfil público GitHub e referências históricas autorizadas necessárias à autoria.
 - Manter o repositório na sua fase histórica própria.
 - Corrigir documentação, privacidade e segurança sem reescrever o histórico.
-- Evitar introdução de dados reais, credenciais ou informação operacional.
+- Evitar introdução de dados pessoais reais desnecessários, credenciais ou informação operacional.
 - Não misturar este repositório com o `IA-Transition`.
 
 ## Dados Proibidos
@@ -40,7 +41,8 @@ O conteúdo deve ser interpretado como material educativo e demonstrativo. Os sc
 
 - credenciais, tokens ou segredos;
 - emails pessoais privados;
-- dados pessoais reais;
+- moradas, telefones ou identificadores pessoais não necessários;
+- dados pessoais de terceiros;
 - nomes laborais ou identificadores internos;
 - dados financeiros;
 - escalas, turnos ou planeamento operacional real;

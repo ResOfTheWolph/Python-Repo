@@ -2,7 +2,7 @@
 
 ## Classificação
 
-O `Python-Repo` é um portefólio técnico pessoal de Rúben Cavaco, classificado como material pré-Portus Digital, anterior à estruturação da Portus Digital. O repositório contém exercícios e projetos iniciais em Python e não deve conter informação real sensível.
+O `Python-Repo` é um portefólio técnico pessoal de Rúben Cavaco, classificado como material pré-Portus Digital, anterior à estruturação da Portus Digital. O repositório contém exercícios e projetos iniciais em Python e não deve conter informação real sensível desnecessária.
 
 ## Dados Proibidos
 
@@ -11,8 +11,10 @@ Não devem ser adicionados ao repositório:
 - credenciais, tokens, palavras-passe reais, chaves de API ou chaves privadas;
 - ficheiros `.env` ou configurações com segredos;
 - emails pessoais privados;
-- dados pessoais reais;
+- moradas, telefones ou identificadores pessoais não necessários;
+- dados pessoais de terceiros;
 - caminhos locais absolutos;
+- identificadores laborais;
 - dados laborais, operacionais ou financeiros reais;
 - informação interna de entidades, clientes, equipas ou processos.
 
@@ -23,7 +25,10 @@ São permitidos apenas:
 - exemplos fictícios;
 - código demonstrativo;
 - documentação histórica e técnica;
-- referências públicas necessárias à autoria e ao contexto do portefólio.
+- nome público do autor;
+- identificação pública do proprietário;
+- perfil público GitHub;
+- referências históricas autorizadas necessárias à autoria e ao contexto do portefólio.
 
 ## Projetos de Password
 
